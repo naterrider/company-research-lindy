@@ -167,7 +167,7 @@ function parseCompanyInfo(content: string, companyName: string) {
  * Parse key people and leadership from research content
  */
 function parseKeyPeople(content: string) {
-  const people = [];
+  const people: { persona: string; name: string; title: string; department: string }[] = [];
   
   const titlePatterns = [
     { title: 'CEO', pattern: /(?:Chief Executive Officer|CEO)[:\s]+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)/gi },
