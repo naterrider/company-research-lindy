@@ -426,7 +426,7 @@ export default function Home() {
               <Card className="p-12 text-center">
                 <Search className="w-12 h-12 text-slate-300 mx-auto mb-4" />
                 <p className="text-slate-600">
-                  Enter a company name and click "Research Company" to get started
+                  Enter a company name and click &quot;Research Company&quot; to get started
                 </p>
               </Card>
             )}
